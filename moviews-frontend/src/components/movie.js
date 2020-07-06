@@ -74,7 +74,7 @@ class Movie {
     }
   
     deleteMovie(id){
-      return fetch('https://moviews-app.herokuapp.com/' + '/' + id, {
+      return fetch('http://localhost:3000/movies' + '/' + id, {
       method: 'DELETE',
       headers: {
         "Content-Type": "application/json",
@@ -109,7 +109,7 @@ class Movie {
           movie_id: this.id ,
           body: newReviewBody.value,
       };
-      return fetch('https://moviews-app.herokuapp.com/', {
+      return fetch('http://localhost:3000/reviews', {
         method:'POST',
         headers: {
           "Content-Type": "application/json",

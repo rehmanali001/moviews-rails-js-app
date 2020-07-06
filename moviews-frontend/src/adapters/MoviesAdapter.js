@@ -1,6 +1,6 @@
 class MoviesAdapter{
     constructor() {
-      this.baseUrl = 'https://moviews-app.herokuapp.com/'
+      this.baseUrl = 'http://localhost:3000/movies'
     }
   
     getMovies() {
