@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Moviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Work+Sans:300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container" id="new-container">
+        <h1>Welcome to Moviews!</h1>
+        <h2>Got a Movie review? You're in Luck.</h2>
+        <div>
+            <img src="Movies.jpg" alt="movies">
+        </div>
+    </div>
+
+    <div class="container">
+      <section id="movies-content"></section>
+    </div>
+
+    <div id="new-movie-container">
+      <form id="new-movie-form">
+        <h2>Recommend a Movie for a review! Add it!</h2>
+        <label for="new-movie-title">Title:</label>
+        <input type="text" id="new-movie-title" placeholder="Enter a Movie Title...">
+        <label for="new-movie-image">Image Url:</label>
+        <input type="text" id="new-movie-image" placeholder="Enter a Movie Url image...">
+        <label for="new-movie-description">Synopsis:</label>
+        <input type="text" id="new-movie-description" placeholder="Enter a Movie description...">
+        <button type="submit">Add Movie</button>
+      </form>
+    </div>
+
+    <div id="new-review-container">
+      <form id="new-review-form">
+        <div class="body-input">
+          <label for="new-review-body">Your Comments:</label>
+          <input type="text" id="new-review-body" placeholder="Write your review on this movie">
+        </div>
+
+        <div id="buttons">
+          <button onclick="closeForm()">Close</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="src/components/movie.js"></script>
+    <script src="src/components/movies.js"></script>
+    <script src="src/components/app.js"></script>
+    <script src="src/adapters/MoviesAdapter.js"></script>
+    <script src="src/index.js"></script>
+
+    </body>
+  </html>
