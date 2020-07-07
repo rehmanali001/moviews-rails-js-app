@@ -8,6 +8,10 @@ To use this app, clone down the repository in terminal:
 
 $ `git clone https://github.com/rehmanali001/moviews-rails-js-app`
 
+Navigate into the backend directory
+
+$ `cd moviews-backend` 
+
 Next, run Bundle Install
 
 $ `bundle install`
