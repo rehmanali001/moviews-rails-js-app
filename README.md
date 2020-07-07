@@ -34,7 +34,7 @@ $ `rails s`
 
 Next open the github io link in the about pages or below 
 
-$ `https://rehmanali001.github.io/moviews-rails-js-app/moviews-frontend/`
+(https://rehmanali001.github.io/moviews-rails-js-app/moviews-frontend/)
 
 # Contributing
 
