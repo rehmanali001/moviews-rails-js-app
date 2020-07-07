@@ -28,7 +28,9 @@ After the seed, run the server:
 
 $ `rails s`
 
-Next open the html file in the frontend folder and you're ready to run!
+Next open the github io link in the about pages or below 
+
+$ `https://rehmanali001.github.io/moviews-rails-js-app/moviews-frontend/`
 
 # Contributing
 
