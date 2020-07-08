@@ -89,7 +89,7 @@ function sort() {
 
           const reviewHeader = document.createElement('h4')
           reviewHeader.setAttribute("class", 'review-header')
-          reviewHeader.innerHTML = 'Movie Thoughts:'
+          reviewHeader.innerHTML = `Movie Thoughts: ${el.reviews.map(j => j.body)}`
           reviewInfo.appendChild(reviewHeader)
       });
     })
