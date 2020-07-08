@@ -6,3 +6,4 @@ function openForm(){
 function closeForm() {
   document.getElementById('new-review-container').style.display = "none";
 }
+

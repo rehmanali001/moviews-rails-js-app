@@ -32,6 +32,7 @@ class Movie {
               movieBlock.remove()
               this.deleteMovie(`${this.id}`)
             })
+
   
   
           const image = document.createElement('img')
@@ -128,3 +129,5 @@ class Movie {
     }
   
   }
+
+  
